@@ -1,0 +1,68 @@
+.card {
+	width: 11rem;
+	position: relative;
+}
+.card__badge {
+	padding: 0.3rem 0.38rem;
+	position: absolute;
+	background: var(--color-white);
+	top: 0.38rem;
+	left: 0.38rem;
+	font-weight: 400;
+	font-size: 0.63rem;
+	line-height: 110%;
+	text-align: center;
+	color: var(--color-sub-title);
+	border-radius: 2px;
+}
+.card__image {
+	height: 14.7rem;
+}
+.card:not(:last-child) {
+	margin-right: 1.125rem;
+}
+.card__ratting {
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+	font-size: 0.75rem;
+	line-height: 110%;
+}
+.card__description {
+	margin-top: 0.5rem;
+	font-size: 0.75rem;
+	font-weight: 300;
+	line-height: 110%;
+	color: var(--color-sub-title);
+}
+.card__price {
+	font-size: 0.75rem;
+	font-weight: 300;
+	line-height: 110%;
+	color: var(--color-sub-title);
+}
+.card__price > b {
+	font-weight: 600;
+}
+.card__star {
+	height: 0.88rem;
+	width: 0.88rem;
+	margin-right: 0.125rem;
+}
+.card__votes {
+	color: #918e9b;
+}
+.card > p:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+/*======================= MEDIA QUERIES (SMALL DEVICES) =======================*/
+
+@media screen and (max-width: 600px) {
+	.card {
+		width: 50vw;
+	}
+}

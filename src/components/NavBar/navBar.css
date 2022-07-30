@@ -1,0 +1,7 @@
+.navbar__container {
+	padding: 1.4rem 1.9rem;
+	height: 8.2vh;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
